@@ -1,0 +1,7 @@
+[dependencies]
+axum = "0.6"
+tokio = { version =n "1", feature = ["full"]}
+serde = { version = "0.4", feature = ["derive"]}
+tower-http  = {version = "0.4, feature = ["core"]}
+sqlx = {version = "0.7", feature = ["sqlite", "runtime-tokio-rustls"]}
+chrono = {version = "0.4", featuren = ["serde"]}
