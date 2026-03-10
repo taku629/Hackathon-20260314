@@ -1,0 +1,2 @@
+fn({type error}, axum::Json<NurseCallRequest>) -> impl Future<Output = axum::Json<NurseCall>> {create_call}
+fn({type error}, axum::Json<NurseCallRequest>) -> impl Future<Output = axum::Json<NurseCall>> {create_call}: Handler<_, _, _>

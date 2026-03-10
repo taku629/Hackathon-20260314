@@ -1,0 +1,2 @@
+fn({type error}, axum::Json<u32>) -> impl Future<Output = axum::Json<bool>> {respond_call}
+fn({type error}, axum::Json<u32>) -> impl Future<Output = axum::Json<bool>> {respond_call}: Handler<_, _, _>

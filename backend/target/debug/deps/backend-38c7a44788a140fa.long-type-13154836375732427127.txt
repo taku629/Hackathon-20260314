@@ -1,0 +1,2 @@
+fn({type error}) -> impl Future<Output = axum::Json<Vec<NurseCall>>> {get_calls}
+fn({type error}) -> impl Future<Output = axum::Json<Vec<NurseCall>>> {get_calls}: Handler<_, _, _>
